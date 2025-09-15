@@ -1,0 +1,10 @@
+Requirement ID,Requirement Description,Test Case ID,Test Status,Comments
+FR-CHAT-001,Multi-channel support,TC-KYC-001,Pass,Tested via API
+FR-KYC-001,Document upload,TC-KYC-001,Pass,All formats verified
+FR-KYC-002,Identity verification,TC-KYC-002,Pass,Status updates working
+FR-KYC-003,Risk scoring,TC-KYC-003,Pass,Scores calculated correctly
+FR-AML-001,Transaction monitoring,TC-AML-001,Pass,$10K threshold working
+FR-AML-002,Suspicious patterns,TC-AML-002,Pass,Patterns detected
+FR-AML-003,Report generation,TC-AML-003,Pass,SAR/CTR generated
+NFR-PERF-001,Response time < 2s,TC-KYC-001,Pass,Avg 1.5s response
+NFR-SEC-001,Data encryption,TC-KYC-002,Pass,AES-256 verified

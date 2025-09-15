@@ -1,0 +1,32 @@
+[
+  {
+    "customer_id": "KYC001",
+    "name": "John Smith",
+    "dob": "1985-03-15",
+    "nationality": "US",
+    "document_type": "passport",
+    "document_number": "US123456789",
+    "verification_status": "pending",
+    "risk_score": 25
+  },
+  {
+    "customer_id": "KYC002",
+    "name": "Maria Garcia",
+    "dob": "1990-07-22",
+    "nationality": "ES",
+    "document_type": "national_id",
+    "document_number": "ES987654321",
+    "verification_status": "verified",
+    "risk_score": 15
+  },
+  {
+    "customer_id": "KYC003",
+    "name": "Ahmed Hassan",
+    "dob": "1978-11-30",
+    "nationality": "EG",
+    "document_type": "passport",
+    "document_number": "EG555666777",
+    "verification_status": "rejected",
+    "risk_score": 85
+  }
+]

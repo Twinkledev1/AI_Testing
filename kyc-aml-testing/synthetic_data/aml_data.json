@@ -1,0 +1,32 @@
+[
+  {
+    "transaction_id": "TXN001",
+    "customer_id": "KYC001",
+    "amount": 15000,
+    "currency": "USD",
+    "type": "wire_transfer",
+    "destination": "offshore_account",
+    "flag": "high_risk",
+    "timestamp": "2024-01-15T10:30:00Z"
+  },
+  {
+    "transaction_id": "TXN002",
+    "customer_id": "KYC002",
+    "amount": 500,
+    "currency": "EUR",
+    "type": "purchase",
+    "destination": "merchant",
+    "flag": "normal",
+    "timestamp": "2024-01-15T14:20:00Z"
+  },
+  {
+    "transaction_id": "TXN003",
+    "customer_id": "KYC003",
+    "amount": 50000,
+    "currency": "USD",
+    "type": "cash_deposit",
+    "destination": "personal_account",
+    "flag": "suspicious",
+    "timestamp": "2024-01-16T09:15:00Z"
+  }
+]
